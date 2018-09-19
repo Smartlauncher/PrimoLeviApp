@@ -8,6 +8,12 @@
             android:id="@+id/nav_camera"
 
             android:title="Startseite" />
+
+        <item
+            android:id="@+id/nav_Nachrichten"
+
+            android:title="Nachrichten" />
+
         <item
             android:id="@+id/nav_gallery"
 
@@ -20,6 +26,10 @@
             android:id="@+id/nav_manage"
 
             android:title="Schülerzeitung" />
+        <item
+            android:id="@+id/nav_Gallery"
+
+            android:title="Gallery" />
     </group>
 
 
