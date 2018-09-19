@@ -1,0 +1,93 @@
+
+
+
+ca-app-pub-3888707419870719/5027839246
+
+ca-app-pub-3888707419870719/7568557899
+
+
+
+
+//
+//                private void yourHighscore() {
+//                    myRef.child("your_Highscore").setValue(number);
+//
+//                }
+//
+//
+//
+//
+//            }.start();
+//        }
+//        else{
+//
+//
+//
+//
+//
+//
+//
+//            return;
+//        }
+//
+//
+//
+//
+//    }
+//    public static int getKey(){
+//        int score1 = (prefs.getInt("score", 0));
+//        return score1;
+//    }
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        String tutorialKey = "SOME_KEY";
+//        Boolean firstTime = getPreferences(MODE_PRIVATE).getBoolean(tutorialKey, true);
+//        if (firstTime) {
+//ShowPopup();
+//            getPreferences(MODE_PRIVATE).edit().putBoolean(tutorialKey, false).apply();
+//        }
+//    }
+//
+//
+//    public static int getMoney() {
+//        return  (efs.getInt("score", 0));
+//    }
+//
+//    public void ShowPopup() {
+//        final Dialog dialog= new Dialog(this);
+//
+//
+//        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        dialog.setContentView(R.layout.dialog);
+//        dialog.show();
+//
+//
+//       final EditText edit = (EditText) dialog.findViewById(R.id.username) ;
+//
+//
+//
+//        Button bt_yes = (Button)dialog.findViewById(R.id.Button_dialog);
+//
+//
+//        bt_yes.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                FirebaseDatabase database = FirebaseDatabase.getInstance();
+//                DatabaseReference myRef = database.getReference("Name");
+//
+//                myRef.setValue(edit.getText().toString());
+//                Name_saver= PreferenceManager.getDefaultSharedPreferences(MainActivity.this.getBaseContext());
+//                if(!Name_saver.getString("Name","Default value").equals("Default value")){
+//                    Toast.makeText(MainActivity.this, "Sorry", Toast.LENGTH_SHORT).show();
+//                }
+//                SharedPreferences.Editor editor = Name_saver.edit();
+//                editor.putString("Name" , edit.getText().toString());
+//                editor.commit();
+//
+//
+//            }
+//        });}
+//
+//
+//    }

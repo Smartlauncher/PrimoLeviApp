@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Version: 27633
+Built-By: jenkins
+Specification-Vendor: iterate GmbH
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_152
+Specification-Version: 6.4.1
+
